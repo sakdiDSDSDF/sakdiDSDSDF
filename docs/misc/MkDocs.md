@@ -207,14 +207,14 @@ jobs:
 ###### 手动部署命令
 
 ```
- # 部署到 GitHub Pages
- mkdocs gh-deploy
+# 部署到 GitHub Pages
+mkdocs gh-deploy
  
- # 强制部署
- mkdocs gh-deploy --force
+# 强制部署
+mkdocs gh-deploy --force
  
- # 指定分支
- mkdocs gh-deploy --remote-branch custom-branch
+# 指定分支
+mkdocs gh-deploy --remote-branch custom-branch
 ```
 
 全部的内容基本都是看[这个](https://mkdoc-material.llango.com/getting-started/)和[这个](https://wncfht.github.io/notes/Tools/Blog/Mkdocs_Material/)，确实挺不错的。
