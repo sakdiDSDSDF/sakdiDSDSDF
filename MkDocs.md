@@ -148,25 +148,74 @@ mkdocs build
 
 使用[GitHub Actions](https://github.com/features/actions)可以自动部署网站。在库的根目录下新建一个GitHub Actions workflow，比如：`.github/workflows/ci.yml`，并粘贴入以下内容：
 
-Material for MkDocs
+创建这个路径并加入以下内容
 
 ```
-name: ci
+# .github/workflows/ci.yml
+name: ci 
 on:
   push:
-    branches:
-      - master
+    branches: 
       - main
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-glightbox
+          pip install mkdocs-git-revision-date-localized-plugin
+      - name: Deploy
+        run: mkdocs gh-deploy --force
 ```
 
-全部的内容基本都是看这个的[入门 - Material for MkDocs 中文文档](https://mkdoc-material.llango.com/getting-started/)，官方的文档，确实挺不错的。
+配置自动部署：
+
+1. 启用 GitHub Pages： - 进入仓库设置 -> Pages - Source 选择 `gh-pages` 分支 - 保存设置
+
+2. 配置部署分支：
+
+   ```yaml
+   # mkdocs.yml
+   remote_branch: gh-pages    # GitHub Pages 分支
+   remote_name: origin       # 远程仓库名
+   ```
+
+3. 手动部署命令：
+
+   ```powershell
+   # 部署到 GitHub Pages
+   mkdocs gh-deploy
+   
+   # 强制部署
+   mkdocs gh-deploy --force
+   
+   # 指定分支
+   mkdocs gh-deploy --remote-branch custom-branch
+   ```
+
+全部的内容基本都是看[这个](https://mkdoc-material.llango.com/getting-started/)和[这个](https://wncfht.github.io/notes/Tools/Blog/Mkdocs_Material/)，确实挺不错的。
+
+感谢大佬们。
+
+然后现在我们的博客就可以在 username.github.io 显示了(如果你的仓库名是username.github.io)。
+
+我的是 [fwdzh.github.i](fwdzh.github.io) 

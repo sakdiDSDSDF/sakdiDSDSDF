@@ -1,3 +1,14 @@
 site_name: My Docs
 theme:
     name: material
+nav:
+  - 首页: index.md
+  - 刷题:
+    - Codeforces:
+      - Round 996 (Div.2): /cp_solving/Codeforces/2055/main.md
+  - 杂项:
+    - 博客相关:
+      - material for MkDocs: /misc/Mkdoc.md
+# mkdocs.yml
+remote_branch: gh-pages    # GitHub Pages 分支
+remote_name: origin       # 远程仓库名
