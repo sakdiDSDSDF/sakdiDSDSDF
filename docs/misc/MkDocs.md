@@ -12,7 +12,11 @@
 
 好吧下载安装程序之后会自动安装好pip。
 
-![zmhsn](../../assets/img1.png)
+***
+这里本来是应该有一张图片的，但是这个插入图片好麻烦，我也不知道为啥一直不能显示。。。
+
+唉唉，博客不加图片也好，方便导入，也省空间。
+***
 
 我直接下载了最新版的，可以下载其他版本，但是不要太低了。
 
@@ -210,7 +214,7 @@ jobs:
    mkdocs gh-deploy --force
    
    # 指定分支
-   mkdocs gh-deploy --remote-branch custom-branch
+   mkdocs gh-deploy --remote-branch custom-branch  
    ```
 
 全部的内容基本都是看[这个](https://mkdoc-material.llango.com/getting-started/)和[这个](https://wncfht.github.io/notes/Tools/Blog/Mkdocs_Material/)，确实挺不错的。
