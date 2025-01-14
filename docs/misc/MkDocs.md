@@ -12,7 +12,7 @@
 
 好吧下载安装程序之后会自动安装好pip。
 
-![image-20250114170449725](../../assets/image-20250114170449725.png)
+![image-20250114170449725](../../assets/image-20250115042208717.png)
 
 我直接下载了最新版的，可以下载其他版本，但是不要太低了。
 
@@ -218,4 +218,4 @@ jobs:
 
 然后现在我们的博客就可以在 username.github.io 显示了(如果你的仓库名是username.github.io)。
 
-我的是 [fwdzh.github.i](fwdzh.github.io) 
+我的是 [fwdzh.github.io](fwdzh.github.io) 
