@@ -205,7 +205,7 @@ jobs:
 
 3. 手动部署命令：  
   
-   ```bash
+   ```
                        
    # 部署到 GitHub Pages
    mkdocs gh-deploy
