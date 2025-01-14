@@ -8,8 +8,7 @@ nav:
       - Round 996 (Div.2): cp_solving/Codeforces/2055/main.md
       # docs cp_solving/Codeforces/2055/main.md
   - 杂项:
-    - 博客相关:
-      - material for MkDocs: misc/MkDocs.md
+    - material for MkDocs: misc/MkDocs.md
 # mkdocs.yml
 site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支

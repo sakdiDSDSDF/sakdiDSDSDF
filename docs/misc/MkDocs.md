@@ -199,8 +199,8 @@ jobs:
    remote_name: origin       # 远程仓库名
    ```
 
-3. 手动部署命令：
-
+3. 手动部署命令：  
+  
    ```powershell
                        
    # 部署到 GitHub Pages
