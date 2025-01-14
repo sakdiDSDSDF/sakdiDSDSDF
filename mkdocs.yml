@@ -9,6 +9,8 @@ nav:
       # docs cp_solving/Codeforces/2055/main.md
   - 杂项:
     - material for MkDocs: misc/MkDocs.md
+  - 页面更新:
+    - 2025-01-15: update/20250115.md
 # mkdocs.yml
 site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支
