@@ -191,11 +191,12 @@ jobs:
         run: mkdocs gh-deploy --force
 ```
 
-配置自动部署：
+##### 配置自动部署：
 
-1. 启用 GitHub Pages： - 进入仓库设置 -> Pages - Source 选择 `gh-pages` 分支 - 保存设置
+###### 启用 GitHub Pages
+- 进入仓库设置 -> Pages - Source 选择 `gh-pages` 分支 - 保存设置
 
-2. 配置部署分支：
+###### 配置部署分支：
 
    ```yaml
    # mkdocs.yml
@@ -203,8 +204,9 @@ jobs:
    remote_name: origin       # 远程仓库名
    ```
 
-3. 手动部署命令：  
-  ```
+###### 手动部署命令：  
+
+  ```powershell
    # 部署到 GitHub Pages
    mkdocs gh-deploy
    
