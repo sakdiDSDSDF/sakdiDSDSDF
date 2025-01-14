@@ -11,6 +11,6 @@ nav:
     - 博客相关:
       - material for MkDocs: misc/MkDocs.md
 # mkdocs.yml
-site_url: https:fwdzh.github.io  # 设置 GitHub Pages URL
+site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
