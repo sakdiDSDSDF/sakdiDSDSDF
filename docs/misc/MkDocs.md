@@ -191,12 +191,12 @@ jobs:
         run: mkdocs gh-deploy --force
 ```
 
-##### 配置自动部署：
+##### 配置自动部署
 
 ###### 启用 GitHub Pages
 - 进入仓库设置 -> Pages - Source 选择 `gh-pages` 分支 - 保存设置
 
-###### 配置部署分支：
+###### 配置部署分支
 
    ```yaml
    # mkdocs.yml
@@ -204,18 +204,18 @@ jobs:
    remote_name: origin       # 远程仓库名
    ```
 
-###### 手动部署命令：  
+###### 手动部署命令
 
-  ```powershell
-   # 部署到 GitHub Pages
-   mkdocs gh-deploy
-   
-   # 强制部署
-   mkdocs gh-deploy --force
-   
-   # 指定分支
-   mkdocs gh-deploy --remote-branch custom-branch
-  ```
+```
+ # 部署到 GitHub Pages
+ mkdocs gh-deploy
+ 
+ # 强制部署
+ mkdocs gh-deploy --force
+ 
+ # 指定分支
+ mkdocs gh-deploy --remote-branch custom-branch
+```
 
 全部的内容基本都是看[这个](https://mkdoc-material.llango.com/getting-started/)和[这个](https://wncfht.github.io/notes/Tools/Blog/Mkdocs_Material/)，确实挺不错的。
 
