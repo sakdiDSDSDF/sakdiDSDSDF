@@ -12,7 +12,7 @@
 
 好吧下载安装程序之后会自动安装好pip。
 
-![image-20250114170449725](../../assets/image-20250115042208717.png)
+![image-20250114170449725](https://fwdzh.github.io/assets/image-20250115042208717.png)
 
 我直接下载了最新版的，可以下载其他版本，但是不要太低了。
 
@@ -201,7 +201,8 @@ jobs:
 
 3. 手动部署命令：
 
-   ```powershell
+   ```powershell  
+
    # 部署到 GitHub Pages
    mkdocs gh-deploy
    
@@ -210,6 +211,7 @@ jobs:
    
    # 指定分支
    mkdocs gh-deploy --remote-branch custom-branch
+
    ```
 
 全部的内容基本都是看[这个](https://mkdoc-material.llango.com/getting-started/)和[这个](https://wncfht.github.io/notes/Tools/Blog/Mkdocs_Material/)，确实挺不错的。
