@@ -1,6 +1,18 @@
 site_name: wuyi
+# theme:
+#     name: material
 theme:
-    name: material
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: teal
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+  features:
+    - navigation.tabs
+
 nav:
   - 首页: index.md
   - 刷题:
