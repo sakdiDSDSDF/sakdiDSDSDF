@@ -1,10 +1,11 @@
-/* 测试样式 */
-body {
-    background-color: yellow;  /* 测试是否应用了自定义 CSS */
+/* 减小整个容器的边距 */
+.md-container {
+    margin: 0;   /* 设置为 0 或者更小的值来去除容器的外边距 */
+    padding: 0;  /* 设置为 0 或者你需要的值来调整内边距 */
 }
 
+/* 调整主要内容区域的边距 */
 .md-main {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    margin: 0;
+    padding: 0 10px;  /* 调整左右内边距 */
 }
-
