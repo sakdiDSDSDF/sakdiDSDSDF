@@ -1,18 +1,33 @@
-site_name: wuyi
-# theme:
-#     name: material
+site_name: fwdzh's blog
+
+site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
+remote_branch: gh-pages    # GitHub Pages 分支
+remote_name: origin       # 远程仓库名
+
+copyright: Copyright &copy; llango
+
 theme:
   name: material
-  palette:
-    - scheme: default
-      primary: blue
-      accent: teal
-    - scheme: slate
-      primary: deep purple
-      accent: amber
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
   features:
-    - navigation.tabs
+    # - navigation.instant
     - navigation.sections
+    - navigation.tabs
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
 
 nav:
   - 首页: index.md
@@ -24,7 +39,3 @@ nav:
     - material for MkDocs: misc/MkDocs.md
   - 页面更新:
     - 2025-01-15: update/20250115.md
-# mkdocs.yml
-site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
-remote_branch: gh-pages    # GitHub Pages 分支
-remote_name: origin       # 远程仓库名
