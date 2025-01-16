@@ -38,5 +38,9 @@ jobs:
           pip install mkdocs-changelog-plugin
           pip install mkdocs-minify-plugin
           pip install mkdocs-video
+          pip install mkdocs
+          pip install mkdocs-get-deps       
+          # pip install mkdocs-material         
+          pip install mkdocs-material-extensions
       - name: Deploy
         run: mkdocs gh-deploy --force
