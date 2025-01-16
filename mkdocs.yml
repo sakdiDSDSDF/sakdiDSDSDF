@@ -51,42 +51,64 @@ theme:
   # favicon: assets/favicon.png
   icon:
     logo: logo
-  markdown_extensions:
-    # - abbr
-    - meta
-    - def_list
-    - attr_list
-    - md_in_html
-    - sane_lists
-    - admonition
-    - pymdownx.keys
-    - pymdownx.mark
-    - pymdownx.tilde
-    - pymdownx.critic
-    - pymdownx.details
-    - pymdownx.snippets
-    - pymdownx.magiclink
-    - pymdownx.superfences
-    - pymdownx.inlinehilite
-    - toc:
-        permalink: true
-        toc_depth: 3
-    - pymdownx.highlight: # 代码块高亮
-        anchor_linenums: true
-        linenums: true # 显示行号
-        auto_title: true # 显示编程语言名称
-        linenums_style: pymdownx-inline
-        line_spans: __span
-        pygments_lang_class: true
-    - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    - pymdownx.tabbed:
-        alternate_style: true
-    - pymdownx.tasklist:
-        custom_checkbox: true
-    - pymdownx.arithmatex:
-        generic: true
+markdown_extensions:
+  # - abbr
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+      linenums_style: pymdownx-inline
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+plugins:
+  - search:
+      # 搜索索引设置
+      lang: 
+        - en
+        - zh
+      separator: '[\s\-\.]+'    # 分词分隔符
+      # min_search_length: 2      # 最小搜索长度
+      # prebuild_index: true      # 预构建索引
+
+      # 搜索内容配置
+      # indexing:
+      #   full_sections: true     # 索引完整章节
+      #   headings: true         # 索引标题
+      #   content: true         # 索引内容
+      #   tags: true           # 索引标签
+
+      # 搜索结果排序
+      # scoring:
+      #   title_boost: 10      # 标题权重
+      #   heading_boost: 5     # 标题权重
+      #   content_boost: 1     # 内容权重
 
 nav:
   - 首页: index.md

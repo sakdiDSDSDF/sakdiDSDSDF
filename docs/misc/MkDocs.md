@@ -223,4 +223,4 @@ mkdocs gh-deploy --remote-branch custom-branch
 
 然后现在我们的博客就可以在 username.github.io 显示了(如果你的仓库名是username.github.io)。
 
-我的是 [fwdzh.github.io](fwdzh.github.io) 
+我的是 [fwdzh.github.io](https://fwdzh.github.io) 
