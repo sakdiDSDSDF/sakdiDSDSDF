@@ -4,7 +4,7 @@ site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
-copyright: Copyright &copy; llango
+copyright: Copyright &copy; fwdzh
 
 theme:
   name: material
@@ -12,12 +12,35 @@ theme:
   include_search_page: false
   search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
   language: en
   features:
-    # - navigation.instant
-    - navigation.sections
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.action.view
+    - content.footnote.tooltips
+    - content.tabs.link
+    - header.autohide
+
+    # - navigation.tabs.sticky
+    # - navigation.sections
+
+    - navigation.tracking
     - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.path
+
+    # - navigation.instant.prefetch
+    # - navigation.instant.preview
+    # - navigation.instant.progress
+    # - navigation.expand
+
+    - toc.follow
+
+    - search.highlight
+    - search.share
+    - search.suggest
   palette:
     scheme: default
     primary: indigo
@@ -28,6 +51,42 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+  markdown_extensions:
+    # - abbr
+    - meta
+    - def_list
+    - attr_list
+    - md_in_html
+    - sane_lists
+    - admonition
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.snippets
+    - pymdownx.magiclink
+    - pymdownx.superfences
+    - pymdownx.inlinehilite
+    - toc:
+        permalink: true
+        toc_depth: 3
+    - pymdownx.highlight: # 代码块高亮
+        anchor_linenums: true
+        linenums: true # 显示行号
+        auto_title: true # 显示编程语言名称
+        linenums_style: pymdownx-inline
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.arithmatex:
+        generic: true
 
 nav:
   - 首页: index.md
