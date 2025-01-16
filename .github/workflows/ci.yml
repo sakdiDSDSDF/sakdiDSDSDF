@@ -31,5 +31,12 @@ jobs:
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install pymdown-extensions
+          pip install mkdocs-statistics-plugin
+          pip install mkdocs-heti-plugin
+          pip install mkdocs-blogging-plugin
+          pip install mkdocs-callouts
+          pip install mkdocs-changelog-plugin
+          pip install mkdocs-minify-plugin
+          pip install mkdocs-video
       - name: Deploy
         run: mkdocs gh-deploy --force
