@@ -68,6 +68,7 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  # - markdown.extensions.math
   - toc:
       permalink: true
       toc_depth: 3
@@ -87,6 +88,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
+    
 plugins:
   - search:
       # 搜索索引设置
@@ -109,13 +111,24 @@ plugins:
       #   title_boost: 10      # 标题权重
       #   heading_boost: 5     # 标题权重
       #   content_boost: 1     # 内容权重
+markdown_extensions:
+  
 
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 nav:
   - 首页: index.md
   - 刷题:
     - Codeforces:
       - Round 996 (Div.2): cp_solving/Codeforces/2055/main.md
       # docs cp_solving/Codeforces/2055/main.md
+  - 日常:
+    - 2025-01-18: daily/2025/2025_0118.md
   - 杂项:
     - material for MkDocs: misc/MkDocs.md
   - 页面更新:
