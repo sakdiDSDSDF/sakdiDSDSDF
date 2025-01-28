@@ -31,10 +31,10 @@ theme:
     - navigation.top
     - navigation.path
 
-    # - navigation.instant.prefetch
-    # - navigation.instant.preview
-    # - navigation.instant.progress
-    # - navigation.expand
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.expand
 
     - toc.follow
 
