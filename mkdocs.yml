@@ -22,8 +22,8 @@ theme:
     - content.tabs.link
     - header.autohide
 
-    # - navigation.tabs.sticky
-    # - navigation.sections
+    - navigation.tabs.sticky
+    - navigation.sections
 
     - navigation.tracking
     - navigation.tabs
