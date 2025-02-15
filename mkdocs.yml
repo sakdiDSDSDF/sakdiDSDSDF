@@ -4,8 +4,6 @@ site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
-extra:
-  CNAME: wuyi.host
 copyright: Copyright &copy; fwdzh
 
 theme:
