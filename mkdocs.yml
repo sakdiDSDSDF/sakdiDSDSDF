@@ -128,6 +128,8 @@ nav:
       # - Round 996 (Div.2): cp_solving/Codeforces/2055/main.md
       # docs cp_solving/Codeforces/2055/main.md
   - 日常:
+    - 刷题记录: cp_solving/1.md 
+    - 2025-02-15: daily/2025/2025_0215.md
     - 2025-01-18: daily/2025/2025_0118.md
   - 杂项:
     - material for MkDocs: misc/MkDocs.md
