@@ -9,7 +9,7 @@ copyright: Copyright &copy; fwdzh
 theme:
   name: material
   # Don't include MkDocs' JavaScript
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
 
   language: en
@@ -125,7 +125,7 @@ nav:
   - 首页: index.md
   - 刷题:
     - Codeforces:
-      - Round 996 (Div.2): cp_solving/Codeforces/2055/main.md
+      # - Round 996 (Div.2): cp_solving/Codeforces/2055/main.md
       # docs cp_solving/Codeforces/2055/main.md
   - 日常:
     - 2025-01-18: daily/2025/2025_0118.md
