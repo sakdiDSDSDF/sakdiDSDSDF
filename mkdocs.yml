@@ -63,9 +63,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换至亮色模式
+  # font:
+  #   text: Roboto
+  #   code: Roboto Mono
   font:
-    text: Roboto
-    code: Roboto Mono
+    false    # 禁用默认字体以使用自定义字体
+  
+  extra_css:
+    - stylesheets/extra.css
   # favicon: assets/favicon.png
   icon:
     logo: logo

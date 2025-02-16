@@ -1,0 +1,14 @@
+:root {
+    /* macOS 风格的正文字体 */
+    --md-text-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    /* macOS 风格的代码字体 */
+    --md-code-font: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Monaco, Consolas, monospace;
+  }
+  
+  /* 优化中文字体显示 */
+  .md-content {
+    font-weight: 350;  /* SF Pro Text 的最佳显示字重 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
