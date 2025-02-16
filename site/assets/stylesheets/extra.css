@@ -1,14 +1,26 @@
+/* 引入字体 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&display=swap');
+
 :root {
-    /* macOS 风格的正文字体 */
-    --md-text-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Helvetica Neue', Helvetica, sans-serif;
-    
-    /* macOS 风格的代码字体 */
-    --md-code-font: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Monaco, Consolas, monospace;
-  }
+  /* 正文字体 */
+  --md-text-font: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
   
-  /* 优化中文字体显示 */
-  .md-content {
-    font-weight: 350;  /* SF Pro Text 的最佳显示字重 */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  /* 代码字体 */
+  --md-code-font: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* 优化字体显示 */
+.md-content {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
+}
+
+/* 优化代码显示 */
+code {
+  font-size: 0.9em;
+  font-feature-settings: "liga" 1;
+}
