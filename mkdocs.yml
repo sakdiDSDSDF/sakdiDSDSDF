@@ -41,10 +41,28 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+  # palette:
+  #   scheme: default
+  #   primary: indigo
+  #   accent: indigo
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
+    # 亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal       # 使用清新的蓝绿色作为主色
+      accent: pink       # 用粉色作为强调色，形成鲜明对比
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple  # 深紫色在暗色主题下很优雅
+      accent: amber        # 琥珀色作为强调色，提供温暖的视觉效果
+      toggle:
+        icon: material/brightness-4
+        name: 切换至亮色模式
   font:
     text: Roboto
     code: Roboto Mono
