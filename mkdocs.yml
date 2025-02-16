@@ -66,12 +66,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.magiclink
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-      collapse_code: true  # 添加这一行来启用代码块默认折叠
+  - pymdownx.superfences
   - pymdownx.inlinehilite
   # - markdown.extensions.math
   - toc:
