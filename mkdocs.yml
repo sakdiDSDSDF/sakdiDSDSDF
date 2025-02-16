@@ -111,7 +111,6 @@ plugins:
       #   title_boost: 10      # 标题权重
       #   heading_boost: 5     # 标题权重
       #   content_boost: 1     # 内容权重
-markdown_extensions:
   
 
 extra_javascript:
