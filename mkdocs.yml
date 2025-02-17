@@ -1,10 +1,10 @@
-site_name: fwdzh's blog
+site_name: wuyi's blog
 
 site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
-copyright: Copyright &copy; fwdzh
+copyright: Copyright &copy; wuyi
 
 theme:
   name: material
@@ -71,9 +71,19 @@ theme:
   
   # extra_css:
   #   - stylesheets/extra.css
-  # favicon: assets/favicon.png
+
   icon:
-    logo: logo
+    # logo: material/book-open-page-variant  # 默认书本样式
+    # 其他选项：
+    # logo: material/library               # 图书馆
+    # logo: material/notebook             # 笔记本
+    # logo: material/school              # 学校
+    # logo: material/pencil              # 铅笔
+    # logo: material/code-braces         # 代码
+    # logo: material/brain               # 大脑
+    # logo: fontawesome/solid/blog       # 博客
+    logo: material/rocket-launch       # 火箭
+  favicon: assets/favicon.png
 markdown_extensions:
   # - abbr
   - meta
