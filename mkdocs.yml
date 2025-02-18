@@ -160,6 +160,7 @@ nav:
   - 刷题记录: 
     - _1: cp_solving/1.md
   - Codeforces:
+    - Educational Codeforces Round 174: cp_solving/Codeforces/2069.md
     - Codeforces Round 1005 (Div. 2): cp_solving/Codeforces/2064.md
   - 日常:
     - 2025-02-15: daily/2025/2025_0215.md
