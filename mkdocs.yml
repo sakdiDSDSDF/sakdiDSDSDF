@@ -164,6 +164,9 @@ nav:
   - Codeforces:
     - Educational Codeforces Round 174: cp_solving/Codeforces/2069.md
     - Codeforces Round 1005 (Div. 2): cp_solving/Codeforces/2064.md
+  - Algorithm:
+    - 图论:
+      - 二分图: algorithm/graph/BipartiteGraph.md
   - 日常:
     - 2025-02-15: daily/2025/2025_0215.md
     - 2025-01-18: daily/2025/2025_0118.md
