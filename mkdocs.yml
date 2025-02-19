@@ -168,6 +168,7 @@ nav:
     - 2025-02-15: daily/2025/2025_0215.md
     - 2025-01-18: daily/2025/2025_0118.md
   - 杂项:
+    - github相关: misc/git_.md
     - material for MkDocs: misc/MkDocs.md
     - 生成指定难度数量的随机CF题目: misc/rndcfproblem.md
     - 通过自定义域名访问github pages: misc/customdomain.md
