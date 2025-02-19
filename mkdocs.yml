@@ -158,6 +158,8 @@ extra_css:
 nav:
   - 首页: index.md
   - 刷题记录: 
+    - 每日3道*1600-*1800:
+      - day1- : cp_solving/2.md
     - _1: cp_solving/1.md
   - Codeforces:
     - Educational Codeforces Round 174: cp_solving/Codeforces/2069.md
