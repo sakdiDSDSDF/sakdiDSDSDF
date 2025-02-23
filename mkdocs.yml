@@ -159,7 +159,7 @@ nav:
   - 首页: index.md
   - 刷题记录: 
     - 每日3道*1600-*1800:
-      - day1- : cp_solving/2.md
+      - day1-day4 : cp_solving/2.md
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
@@ -168,6 +168,8 @@ nav:
     - Nowcoder:
       - 牛客周赛 Round 82: cp_solving/nowcoder/102303.md
   - Algorithm:
+    - 数论:
+      - 数论基础: algorithm/numbertheory/basic.md
     - 图论:
       - 二分图: algorithm/graph/BipartiteGraph.md
   - 日常:
