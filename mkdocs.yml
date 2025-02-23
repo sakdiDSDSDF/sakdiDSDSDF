@@ -174,6 +174,7 @@ nav:
     - 前端: develepment/frontend/main.md
   - 杂项:
     - windows双系统删除ubuntu arch: misc/deleteubuntu.md
+    - windows创建恢复分区: misc/winrecovery.md
     - github相关: misc/git_.md
     - material for MkDocs: misc/MkDocs.md
     - 生成指定难度数量的随机CF题目: misc/rndcfproblem.md
