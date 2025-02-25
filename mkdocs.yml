@@ -83,6 +83,7 @@ theme:
     # logo: material/brain               # 大脑
     # logo: fontawesome/solid/blog       # 博客
     logo: material/rocket-launch       # 火箭
+    repo: fontawesome/brands/github        # 仓库图标
   favicon: assets/favicon.png
 markdown_extensions:
   # - abbr
