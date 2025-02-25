@@ -1,7 +1,7 @@
 site_name: 理塘丁真's blog
 
 site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
-site_repo: https://github.com/fwdzh/fwdzh.github.io  # 设置 GitHub Repository URL
+repo_name: https://github.com/fwdzh/fwdzh.github.io  # 设置 GitHub Repository URL
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
