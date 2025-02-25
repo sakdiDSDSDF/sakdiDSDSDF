@@ -156,7 +156,6 @@ extra_css:
   - stylesheets/extra.css
   # - stylesheets/ex1.css
 nav:
-  - GitHub Repository: https://github.com/fwdzh/fwdzh.github.io
   - 首页: index.md
   - 刷题记录: 
     - 每日3道*1600-*1800:
