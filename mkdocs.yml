@@ -182,6 +182,7 @@ nav:
   - 开发:
     - 前端: develepment/frontend/main.md
   - 杂项:
+    - github基础操作及github pages: misc/gitbasic.md
     - windows双系统删除ubuntu arch: misc/deleteubuntu.md
     - windows创建恢复分区: misc/winrecovery.md
     - github相关: misc/git_.md
