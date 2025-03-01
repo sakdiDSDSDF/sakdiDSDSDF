@@ -164,8 +164,8 @@ nav:
     - 省赛:
       - 2024年四川省大学生程序设计竞赛: XCPC/Provincial/2024Sichuan.md
   - 刷题记录: 
-    - 每日3道*1600-*1800:
-      - day1-day4 : cp_solving/2.md
+    - 2025年3月1日-3月9日: cp_solving/2025/0301.md
+    - 1600-1800 day1-day4 : cp_solving/2.md
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
