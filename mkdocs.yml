@@ -160,6 +160,9 @@ extra_css:
   # - stylesheets/ex1.css
 nav:
   - 首页: index.md
+  - XCPC:
+    - 省赛:
+      - 2024年四川省大学生程序设计竞赛: XCPC/Provincial/2024Sichuan.md
   - 刷题记录: 
     - 每日3道*1600-*1800:
       - day1-day4 : cp_solving/2.md
