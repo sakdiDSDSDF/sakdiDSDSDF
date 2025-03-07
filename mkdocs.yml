@@ -163,6 +163,8 @@ nav:
   - XCPC:
     - 省赛:
       - 2024年四川省大学生程序设计竞赛: XCPC/Provincial/2024Sichuan.md
+    - 2025“钉耙编程”中国大学生算法设计春季联赛:
+      - 第一场: cp_solving/2025hdu-spring/01.md
   - 刷题记录: 
     - 2025年3月1日-3月9日: cp_solving/2025/0301.md
     - 1600-1800 day1-day4 : cp_solving/2.md
