@@ -12,7 +12,12 @@ body {
 }
 
 /* 标题使用自定义字体 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'LXGW WenKai', serif !important;
 }
 
@@ -22,7 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* macOS 风格代码字体 */
-code, pre, .md-typeset code {
+code,
+pre,
+.md-typeset code {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, 'Liberation Mono', monospace !important;
   font-size: 0.9em !important;
   font-feature-settings: "liga" 0;

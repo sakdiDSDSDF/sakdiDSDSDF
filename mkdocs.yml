@@ -1,8 +1,8 @@
 site_name: 理塘丁真's blog
 
 site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
-repo_url: https://github.com/fwdzh/fwdzh.github.io  # 设置 GitHub Repository URL
-repo_name: mkdocs material blog
+# repo_url: https://github.com/fwdzh/fwdzh.github.io  # 设置 GitHub Repository URL
+# repo_name: mkdocs material blog
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
@@ -14,18 +14,18 @@ theme:
   include_search_page: true
   search_index_only: true
 
-  language: en
+  language: zh
   features:
     - content.code.annotate
     - content.code.copy
     - content.code.select
-    - content.action.view
+    # - content.action.view
     - content.footnote.tooltips
     - content.tabs.link
     - header.autohide
 
-    - navigation.tabs.sticky
-    - navigation.sections
+    # - navigation.tabs.sticky
+    # - navigation.sections 
 
     - navigation.tracking
     - navigation.tabs
@@ -36,13 +36,13 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.preview
     - navigation.instant.progress
-    - navigation.expand
+    # - navigation.expand # 自动展开文件
 
     - toc.follow
 
-    - search.highlight
-    - search.share
-    - search.suggest
+    # - search.highlight
+    # - search.share
+    # - search.suggest
   # palette:
   #   scheme: default
   #   primary: indigo
@@ -65,30 +65,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换至亮色模式
-  # font:
-  #   text: Roboto
-  #   code: Roboto Mono
+
   font:
     false    # 禁用默认字体以使用自定义字体
-  
-  # extra_css:
-  #   - stylesheets/extra.css
 
   icon:
-    # logo: material/book-open-page-variant  # 默认书本样式
-    # 其他选项：
-    # logo: material/library               # 图书馆
-    # logo: material/notebook             # 笔记本
-    # logo: material/school              # 学校
-    # logo: material/pencil              # 铅笔
-    # logo: material/code-braces         # 代码
-    # logo: material/brain               # 大脑
-    # logo: fontawesome/solid/blog       # 博客
     logo: material/rocket-launch       # 火箭
     repo: fontawesome/brands/github        # 仓库图标
   favicon: assets/favicon.png
 markdown_extensions:
-  # - abbr
   - meta
   - def_list
   - attr_list
@@ -104,14 +89,14 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
-  # - markdown.extensions.math
+
   - toc:
       permalink: true
-      toc_depth: 3
+      toc_depth: 6 # 控制目录最多显示几级标题
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
       linenums: true # 显示行号
-      auto_title: true # 显示编程语言名称
+      # auto_title: true # 显示编程语言名称
       linenums_style: pymdownx-inline
       line_spans: __span
       pygments_lang_class: true
@@ -125,35 +110,20 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
     
-plugins:
-  - search:
+# plugins:
+  # - search:
       # 搜索索引设置
-      lang: 
-        - en
-        - zh
-      separator: '[\s\-\.]+'    # 分词分隔符
-      # min_search_length: 2      # 最小搜索长度
-      # prebuild_index: true      # 预构建索引
-
-      # 搜索内容配置
-      # indexing:
-      #   full_sections: true     # 索引完整章节
-      #   headings: true         # 索引标题
-      #   content: true         # 索引内容
-      #   tags: true           # 索引标签
-
-      # 搜索结果排序
-      # scoring:
-      #   title_boost: 10      # 标题权重
-      #   heading_boost: 5     # 标题权重
-      #   content_boost: 1     # 内容权重
+      # lang: 
+      #   - en
+      #   - zh
+      # separator: '[\s\-\.]+'    # 分词分隔符
+  # - pagefind
   
 
 extra_javascript:
   - javascripts/katex.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
   - stylesheets/extra.css
