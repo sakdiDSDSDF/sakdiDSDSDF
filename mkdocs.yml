@@ -142,6 +142,7 @@ nav:
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
+      - Codeforces Round 1007 (Div. 2): cp_solving/Codeforces/2078.md
       - Codeforces Round 1007 (Div. 2): cp_solving/Codeforces/2071.md
       - Educational Codeforces Round 175: cp_solving/Codeforces/2070.md
       - Codeforces Round 1006 (Div. 3): cp_solving/Codeforces/2072.md
@@ -157,6 +158,7 @@ nav:
     - 图论:
       - 二分图: algorithm/graph/BipartiteGraph.md
   - 日常:
+    - 最近持续掉分的一些想法: daily/2025/2025_0311.md
     - 2025-02-15: daily/2025/2025_0215.md
     - 2025-01-18: daily/2025/2025_0118.md
   - 开发:
