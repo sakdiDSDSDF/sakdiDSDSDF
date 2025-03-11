@@ -1,0 +1,14 @@
+mkdocs-material
+mkdocs-glightbox
+mkdocs-git-revision-date-localized-plugin
+pymdown-extensions
+mkdocs-statistics-plugin
+mkdocs-heti-plugin
+mkdocs-blogging-plugin
+mkdocs-callouts
+mkdocs-changelog-plugin
+mkdocs-minify-plugin
+mkdocs-video
+mkdocs
+mkdocs-get-deps
+mkdocs-material-extensions
