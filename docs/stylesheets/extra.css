@@ -36,3 +36,12 @@ pre,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (max-width: 1100px) {  /* 例如从1220px改成1400px */
+  .md-nav--primary {
+      display: flex !important;  /* 强制显示导航栏 */
+  }
+  .md-header__button {
+      display: none !important; /* 隐藏汉堡菜单 */
+  }
+}
