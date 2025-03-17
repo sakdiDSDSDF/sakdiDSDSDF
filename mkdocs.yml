@@ -158,6 +158,8 @@ nav:
     - Nowcoder:
       - 牛客周赛 Round 82: cp_solving/nowcoder/102303.md
   - Algorithm:
+    - 数据结构:
+      - 线段树: algorithm/datastructure/SegmentTree.md
     - 数论:
       - 数论基础: algorithm/numbertheory/basic.md
     - 图论:
