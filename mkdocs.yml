@@ -146,6 +146,7 @@ nav:
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
+      - Educational Codeforces Round 176: cp_solving/Codeforces/2075.md 
       - Codeforces Round 1009 (Div. 3): cp_solving/Codeforces/2074.md
       - Codeforces Round 1008 (Div. 2): cp_solving/Codeforces/2078.md
       - Codeforces Round 1007 (Div. 2): cp_solving/Codeforces/2071.md
