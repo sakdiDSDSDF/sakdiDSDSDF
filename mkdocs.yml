@@ -147,6 +147,7 @@ nav:
   - contest:
     - Codeforces:
       - Educational Codeforces Round 176: cp_solving/Codeforces/2075.md 
+      - Codeforces Round 1010 (Div. 2) unrated: cp_solving/Codeforces/2082.md
       - Codeforces Round 1009 (Div. 3): cp_solving/Codeforces/2074.md
       - Codeforces Round 1008 (Div. 2): cp_solving/Codeforces/2078.md
       - Codeforces Round 1007 (Div. 2): cp_solving/Codeforces/2071.md
@@ -157,7 +158,7 @@ nav:
     - Codeforces VP:
       - Educational Codeforces Round 150: cp_solving/Codeforces/1841.md
     - Atcoder:
-      - Atcoder Beginner Contest 395: cp_solving/AtCoder/ABC397.md
+      - Atcoder Beginner Contest 397: cp_solving/AtCoder/ABC397.md
       - Atcoder Beginner Contest 395: cp_solving/AtCoder/ABC395.md
     - Nowcoder:
       - 牛客周赛 Round 82: cp_solving/nowcoder/102303.md
