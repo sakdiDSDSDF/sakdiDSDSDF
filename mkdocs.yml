@@ -146,6 +146,7 @@ nav:
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
+      - Codeforces Round 1012 (Div. 2): cp_solving/Codeforces/2090.md
       - Codeforces Round 1011 (Div. 2): cp_solving/Codeforces/2085.md
       - Educational Codeforces Round 176: cp_solving/Codeforces/2075.md 
       - Codeforces Round 1010 (Div. 2) unrated: cp_solving/Codeforces/2082.md
