@@ -137,6 +137,7 @@ nav:
       - 2024 年陕西省第十二届国际大学生程序设计竞赛省赛: XCPC/Provincial/2024Shaanxi.md
       - 2024年四川省大学生程序设计竞赛: XCPC/Provincial/2024Sichuan.md
     - 2025“钉耙编程”中国大学生算法设计春季联赛:
+      - 第三场: cp_solving/2025hdu-spring/03.md
       - 第一场: cp_solving/2025hdu-spring/01.md
   - 刷题记录: 
     - 部分做题记录: cp_solving/2025/0313.md
@@ -146,6 +147,7 @@ nav:
     - _1: cp_solving/1.md
   - contest:
     - Codeforces:
+      - Codeforces Round 1013 (Div. 3): cp_solving/Codeforces/2091.md
       - Codeforces Round 1012 (Div. 2): cp_solving/Codeforces/2090.md
       - Codeforces Round 1011 (Div. 2): cp_solving/Codeforces/2085.md
       - Educational Codeforces Round 176: cp_solving/Codeforces/2075.md 
@@ -158,6 +160,7 @@ nav:
       - Educational Codeforces Round 174: cp_solving/Codeforces/2069.md
       - Codeforces Round 1005 (Div. 2): cp_solving/Codeforces/2064.md
     - Codeforces VP:
+      - Educational Codeforces Round 149: cp_solving/Codeforces/1837.md
       - Educational Codeforces Round 150: cp_solving/Codeforces/1841.md
     - Atcoder:
       - Atcoder Beginner Contest 398: cp_solving/AtCoder/ABC398.md
