@@ -1,12 +1,12 @@
-site_name: 理塘丁真's blog
+site_name: blog
 
-site_url: https://fwdzh.github.io  # 设置 GitHub Pages URL
+site_url: https://sakdiDSDSDF.github.io  # 设置 GitHub Pages URL
 # repo_url: https://github.com/fwdzh/fwdzh.github.io  # 设置 GitHub Repository URL
 # repo_name: mkdocs material blog
 remote_branch: gh-pages    # GitHub Pages 分支
 remote_name: origin       # 远程仓库名
 
-copyright: Copyright &copy; 理塘丁真
+copyright: Copyright &copy;
 
 theme:
   name: material
@@ -131,72 +131,3 @@ extra_css:
   # - stylesheets/ex1.css
 nav:
   - 首页: index.md
-  - XCPC:
-    - 省赛:
-      - 2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛: XCPC/Invitational/24Shandong.md
-      - 2024 年陕西省第十二届国际大学生程序设计竞赛省赛: XCPC/Provincial/2024Shaanxi.md
-      - 2024年四川省大学生程序设计竞赛: XCPC/Provincial/2024Sichuan.md
-    - 2025“钉耙编程”中国大学生算法设计春季联赛:
-      - 第三场: cp_solving/2025hdu-spring/03.md
-      - 第一场: cp_solving/2025hdu-spring/01.md
-  - 刷题记录: 
-    - 部分做题记录: cp_solving/2025/0313.md
-    - 成长记录: cp_solving/0313.md
-    - 2025年3月1日-3月9日: cp_solving/2025/0301.md
-    - 1600-1800 day1-day4 : cp_solving/2.md
-    - _1: cp_solving/1.md
-  - contest:
-    - Codeforces:
-      - Codeforces Round 1013 (Div. 3): cp_solving/Codeforces/2091.md
-      - Codeforces Round 1012 (Div. 2): cp_solving/Codeforces/2090.md
-      - Codeforces Round 1011 (Div. 2): cp_solving/Codeforces/2085.md
-      - Educational Codeforces Round 176: cp_solving/Codeforces/2075.md 
-      - Codeforces Round 1010 (Div. 2) unrated: cp_solving/Codeforces/2082.md
-      - Codeforces Round 1009 (Div. 3): cp_solving/Codeforces/2074.md
-      - Codeforces Round 1008 (Div. 2): cp_solving/Codeforces/2078.md
-      - Codeforces Round 1007 (Div. 2): cp_solving/Codeforces/2071.md
-      - Educational Codeforces Round 175: cp_solving/Codeforces/2070.md
-      - Codeforces Round 1006 (Div. 3): cp_solving/Codeforces/2072.md
-      - Educational Codeforces Round 174: cp_solving/Codeforces/2069.md
-      - Codeforces Round 1005 (Div. 2): cp_solving/Codeforces/2064.md
-    - Codeforces VP:
-      - Educational Codeforces Round 149: cp_solving/Codeforces/1837.md
-      - Educational Codeforces Round 150: cp_solving/Codeforces/1841.md
-    - Atcoder:
-      - Atcoder Beginner Contest 398: cp_solving/AtCoder/ABC398.md
-      - Atcoder Beginner Contest 397: cp_solving/AtCoder/ABC397.md
-      - Atcoder Beginner Contest 395: cp_solving/AtCoder/ABC395.md
-    - Nowcoder:
-      - 牛客周赛 Round 82: cp_solving/nowcoder/102303.md
-
-  - 日常:
-    - 2025年3月27日-28日: daily/2025/0327.md
-    - 2025-03-18: daily/2025/0318.md
-    - 2025-03-12: daily/2025/0312.md
-    - 最近持续掉分的一些想法: daily/2025/2025_0311.md
-    - 2025-02-15: daily/2025/2025_0215.md
-    - 2025-01-18: daily/2025/2025_0118.md
-  - Algorithm:
-    - 字符串:
-      - KMP: algorithm/string/KMP.md
-    - 数据结构:
-      - 线段树: algorithm/datastructure/SegmentTree.md
-    - 数论:
-      - 数论基础: algorithm/numbertheory/basic.md
-    - 图论:
-      - 二分图: algorithm/graph/BipartiteGraph.md
-    - 其他:
-      - 对拍: algorithm/others/duipai.md
-  # - 开发:
-  #   - 前端: develepment/frontend/main.md
-  - 杂项:
-    - github基础操作及github pages: misc/gitbasic.md
-    - windows双系统删除ubuntu arch: misc/deleteubuntu.md
-    - windows创建恢复分区: misc/winrecovery.md
-    - github相关: misc/git_.md
-    - material for MkDocs: misc/MkDocs.md
-    - 生成指定难度数量的随机CF题目: misc/rndcfproblem.md
-    - 通过自定义域名访问github pages: misc/customdomain.md
-    - win vscode配置: misc/vscodesetting.md
-  - 页面更新:
-    - main: update/20250115.md
