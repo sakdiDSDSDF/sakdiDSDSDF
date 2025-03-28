@@ -177,6 +177,8 @@ nav:
     - 2025-02-15: daily/2025/2025_0215.md
     - 2025-01-18: daily/2025/2025_0118.md
   - Algorithm:
+    - 字符串:
+      - KMP: algorithm/string/KMP.md
     - 数据结构:
       - 线段树: algorithm/datastructure/SegmentTree.md
     - 数论:
