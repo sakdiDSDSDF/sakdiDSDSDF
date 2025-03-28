@@ -158,4 +158,3 @@ next[i] -1  0  0  1  2  3
 
 所以，它们**本质上相关**，但不是完全相同的东西！
 
-[https://www.luogu.com.cn/problem/P3375]: 
