@@ -131,3 +131,5 @@ extra_css:
   # - stylesheets/ex1.css
 nav:
   - 首页: index.md
+  - 每日记录:
+    - 3月30日: daily/2025/0330.md
