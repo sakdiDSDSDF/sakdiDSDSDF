@@ -141,3 +141,5 @@ nav:
     - stl容器相关: 犯病/笑嘻了.md 
   - 算法模板:
     - 高精度: suanfa/gaojingdu.md
+    - 迪杰斯特拉: suanfa/dj.md
+    - 背包问题: suanfa/bag.md
