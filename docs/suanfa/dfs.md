@@ -18,6 +18,8 @@ void dfs(当前状态) {
 
 ```
 
+![image-20250418213010279](F:\Roaming\Typora\typora-user-images\image-20250418213010279.png)
+
 ## https://www.luogu.com.cn/problem/P1036
 
 对于这个题目，我们是不需要专门写回溯那一步的，因为我们每次调用dfs函数的时候把改变的值作为参数传入了，所以说不需要手动写回溯步骤
